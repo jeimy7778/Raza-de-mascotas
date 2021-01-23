@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./CSS/estilos.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./CSS/menu.css'>
+   <!--<script src='main.js'></script>--> 
+</head>
+    <body>
+        <!-- INICIA MENU DE LA PAGINA -->
+        <nav>
+            <ul class="menu">
+                <li class="logo"> 
+                    <a href="#"> 
+                        <!-- IMAGEN DEL LOGO -->
+                        <img src="./IMG/logo.png"> 
+                    </a> 
+                </li>
+                <li> <a href="./index.html"> Inicio </a> </li>
+                <li> <a href="./contactenos.html"> Contáctenos </a> </li>
+            </ul>
+        </nav>
+
+            
+        <div class="container">
+            <h1>Razas de perros animadas</h1>
+
+            <!-- Inicia formulario -->
+                <div>
+                    <form>
+                        <div class="section-flex">
+
+                            <div class="elemnt-form">
+                                <div class="label">
+                                    <label for="type"> Tipo de mensaje </label>
+                                </div>
+                                <select id="type" name="type" required>
+                                    <option value=""> Seleccione una opción </option>
+                                    <option value="Preguntas"> Preguntas </option>
+                                    <option value="Solicitud"> Solicitud </option>
+                                    <option value="Opinión"> Opinión </option>
+                                </select>
+                            </div>
+    
+                            <div class="elemnt-form">
+                                <div class="label">
+                                    <label for="name"> Nombres </label>
+                                </div>
+                                <input type="text" id="name" name="name" placeholder="Ingrese sus nombres" required>
+                            </div>
+                            
+                            <div class="elemnt-form">
+                                <div class="label">
+                                    <label for="email"> Email </label>
+                                </div>
+                                <input type="text" id="email" name="email" placeholder="example@correo.com" required>
+                            </div>
+    
+                            <div class="elemnt-form">
+                                <div class="label">
+                                    <label for="celular"> Celular </label>
+                                </div>
+                                <input type="text" id="celular" name="celular" placeholder="Ingrese su número de culular" required>
+                            </div>
+    
+                            <div class="elemnt-form">
+                                <div class="label">
+                                    <label for="comment"> Comentario </label>
+                                </div>
+                                <textarea id="comment" name="comment" placeholder="Ingrese su comentario" required> Comentario</textarea>
+                            </div>
+    
+                            
+                        </div>
+    
+                        <div class="btn-div">
+                            <button type="submin"> Enviar datos </button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+
+        <footer>
+            <p><b>Creado por:</b> Carolina Valbuena</p>
+        </footer>
+    </body>
+</html>

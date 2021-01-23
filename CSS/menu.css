@@ -1,0 +1,38 @@
+
+nav {
+    background-color: blueviolet;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    width: 10%;
+    list-style: none;
+}
+
+.menu a {
+    color: black;
+    font-family: "indie Flower", cursive;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: rgba(28, 168, 223, 0.849);
+    border: 5px white solid;
+    border-radius: 5px;
+    color: black;
+}
+
+.logo {
+    flex-grow: 3;
+}
+
+.logo img {
+    width: 10%;
+    padding: 0.5% 1% 0.5% 5%;
+}
+
