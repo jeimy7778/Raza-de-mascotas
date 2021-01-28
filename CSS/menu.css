@@ -36,3 +36,31 @@ nav {
     padding: 0.5% 1% 0.5% 5%;
 }
 
+
+/* Menu desplegable */
+
+#menu ul li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+#menu ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: blueviolet;
+    padding: 0;
+    display: none;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+#menu ul ul li {
+    float: none;
+    margin-top: 10px;
+    width: 150px;
+}
